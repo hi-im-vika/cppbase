@@ -5,7 +5,6 @@ file(GLOB SOURCE "src/*.cpp")
 file(GLOB HEADER "include/*.hpp")
 
 set(CMAKE_CXX_STANDARD 17)
-find_package(spdlog REQUIRED)
 
 add_library(cppbase STATIC ${SOURCE})
 
